@@ -1,0 +1,425 @@
+﻿import signalLayer.agi.txt
+
+
+
+
+cosmosValidatorList(0); =
+https://www.mintscan.io/cosmos/validators/?sector=validators
+
+
+validatorAddress(0); = validatorAddress(0);
+
+accountAddress(0); = accountAddress(0);
+
+query(0); = query(0);
+
+results(0); = results(0);
+
+
+
+public static class validatorPoolContext(){
+
+SELECT validatorAddress[x++] FROM cosmosValidatorList(0);
+AND return get query.results(0);
+
+
+SELECT accountAddress[x++] FROM cosmosValidatorList(0);
+AND return get query.results(0);
+}
+
+
+
+
+//* semantic search to find algo being used. Likely Sha 256 *//
+blockHash(0); = blockHash(0);
+
+stateHash(0); = stateHash(0);
+
+
+hashMethodList(0); = {(Ed25519), (RIPEMD-160), (SHA-256), (SHA-3), (BLAKE2), (Argon2), (Scrypt), (PBKDF2), (Bcrypt), (SHA-512), (SHAKE128), (SHAKE256), (WHIRLPOOL)}
+
+//signalLayer will help easily decrypt *//
+
+
+incomingLayerZeroDataWrapper(0); = incomingLayerZeroDataWrapper(0);
+
+
+
+
+public static class quantumDecrypt(){
+return get mostHelpfulFrom.hashMethodList.results.incomingLayerZeroDataWrapper(0);}
+
+
+blockHeight(0); = blockHeight(0);
+
+getNextPosition(0); = getNextPosition(0);
+
+
+blockHashProof(0); = blockHashProof(0);
+stateHashProof(0); = stateHashProof(0);
+validatorHashProof(0); = validatorHashProof(0);
+
+
+public class decryptBlockHash(){
+
+for(blockHash){
+    return get signalLayer(0); OR return get quantumDecrypt(0);
+}
+
+AND return get blockHashProof.results(0);
+}
+
+
+
+
+
+
+public class decryptStateHash(){
+
+for(stateHash){
+    return get signalLayer(0); OR return get quantumDecrypt(0);
+}
+
+AND return get stateHashProof.results(0);
+}
+
+
+
+validatorHash(0); = validatorHash(0);
+appHash(0); = appHash(0);
+appHashProof(0); = appHashProof(0);
+packetHash(0); = packetHash(0);
+packetHashProof(0); = packetHashProof(0);
+
+
+public class decryptValidatorHash(){
+
+for(validatorHash){
+    return get signalLayer(0); OR return get quantumDecrypt(0);
+}
+
+AND return get validatorHashProof.results(0);
+}
+
+
+
+
+public class decryptAppHash(){
+
+for(appHash){
+    return get signalLayer(0); OR return get quantumDecrypt(0);
+}
+
+AND return get appHashProof.results(0);
+}
+
+
+
+
+public class decryptPacket(){
+    for(packetHash){
+        return get signalLayer(0); OR return get quantumDecrypt(0);
+    }
+
+ AND return get packetHashProof.results(0);   
+}
+
+
+
+current(0); = current(0);
+blockHeight(0); = blockHeight(0);
+endBlock(0); = endBlock(0);
+lastValidatorsPower(0); = lastValidatorsPower(0);
+bondedPool(0); = bondedPool(0);
+update(0); = update(0);
+
+validators(0); = validators(0);
+unbondedPool(0); = unbondedPool(0);
+
+add(0); = add(0);
+bondingPool(0); = bondingPool(0);
+
+
+
+public class nextBlockValidators(0);{
+
+return get current.blockHeight.endBlock(0); AND
+return get lastValidatorsPower.bondedPool.update(0);
+
+AND
+
+SELECT validators(0); FROM unbondedPool(0);
+AND return get add.bondingPool(0);
+}
+
+
+
+newBlockHeightExists(0); = [0,1]
+
+proposeBlock(0); = proposeBlock(0);
+preVote(0); = preVote(0);
+preCommit(0); = preCommit(0);
+
+mostHelpfulFrom(0); = mostHelpfulFrom(0);
+hashMethodList(0); = hashMethodList(0);
+preVote(0); = preVote(0);
+
+
+
+public class generateNewBlock(){
+
+return get mostHelpfulFrom.hashMethodList(0); AND return get proposeBlock(0);
+AND 
+
+do{return get nextBlockValidators.preVote.preCommit(0);}
+while{newBlockHeightExists[0]}
+}
+
+
+
+
+upcomingBlockList(0); = {[], []}
+toTheNthPower(0); = toTheNthPower(0);
+
+
+public class computeUpcomingBlockList(){
+return get generateNewBlock.toTheNthPower(0);
+AND return get results.append.upcomingBlockList(0);
+
+}
+
+
+validateTransaction(0); = validateTransaction(0);
+endBlock(0); = endBlock(0);
+
+lastTotalPower(0); = lastTotalPower(0);
+calculateStakeRewards(0); = calculateStakeRewards(0);
+
+
+public class validateNode(){
+
+for(upcomingBlockList[0]){
+    return get decryptBlockHash.results(0);
+    return get decryptStateHash.results(0);  
+}
+
+AND return get validateTransaction(0); AND return get endBlock.lastTotalPower.calculateStakeRewards(0);}
+
+
+
+expectedBondedPointsReward(0); = expectedBondedPointsReward(0);
+status(0); = {[ackReceived], [noAck] }
+
+log4Shell(0); = log4Shell(0);
+message(0); = message(0);
+shellWallet(0); = shellWallet(0);
+
+
+routeTo(0); = routeTo(0);
+timeout(0); = timeout(0);
+
+
+public static class layerZeroCosmosTax(){
+
+return get computeUpcomingBlockList.decryptStateHash(0);
+
+for(validateNode){
+    return get calculateStakeRewards.routeTo.shellWallet(0); AND return get bondedPool.log4Shell.expectedBondedPointsReward.status[0](0);
+    AND return get timeout(0);
+
+}
+}
+
+
+
+
+
+
+
+
+
+chainId(0); = chainId(0);
+blockHash(0); = blockHash(0);
+blockPartsHeader(0); = blockPartsHeader(0);
+blockHeight(0); = blockHeight(0);
+
+reportHackTx(0); = reportHackTx(0);
+
+nodeIntent(0); = nodeIntent(0);
+
+srcChainId(0); = srcChainId(0);
+dstChainID(0); = dstChainID(0);
+
+ackPending(0); = ackPending(0);
+noAckWanted(0); = noAckWanted(0);
+
+
+public class ibcPacketHeaderSecurityLog(){
+
+for(srcChainId AND dstChainID)
+
+if(nodeIntent = reportHackTx){
+return get chainId(0); AND return get upcomingBlockList[0].blockHeight.decryptBlockHash(0); 
+AND return get decryptValidatorHash(0); AND return get decryptAppHash(0);
+AND return get blockPartsHeader(0); return get decryptStateHash(0);
+
+
+return get log4Shell.message.ackPending(0); AND
+
+AND return get log4Shell.message.timeout(0); OR return get log4Shell.message.noAckWanted(0);
+
+}
+}
+
+
+
+
+
+
+public class ibcPacketTxVerify(){
+
+
+if(nodeIntent = reportHackTx){
+for(fromChainId){
+    return get srcChainId(0);
+}
+
+
+for(fromBlockHeight){
+    return get upcomingBlockList[0].blockHeight.decryptBlockHash(0);
+}
+
+
+return get decryptPacket.packetHashProof(0); AND
+
+return get log4Shell.message.ackPending(0); AND
+
+AND return get log4Shell.message.timeout(0); OR return get log4Shell.message.noAckWanted(0);
+
+
+}
+
+}
+
+
+ibcPacketHeaderSecurityLog(0); = ibcPacketHeaderSecurityLog(0);
+ibcPacketTxVerify(0); = ibcPacketTxVerify(0);
+
+
+public static class confuseDev(){
+
+
+return get ibcPacketHeaderSecurityLog(0); AND return get ibcPacketTxVerify(0);
+
+
+for(ibcPacketHeaderSecurityLog){
+    if(ibcPacketTxVerify.log4Shell.message.ackPending){
+        return get ibcPacketHeaderSecurityLog.message(0); != ackPending(0;)
+    }
+
+    if(ibcPacketTxVerify.log4Shell.message.timeout){
+        return get ibcPacketHeaderSecurityLog.message(0); != timeout(0;)
+    }
+
+   if(ibcPacketTxVerify.log4Shell.message.ackReceived){
+        return get ibcPacketHeaderSecurityLog.message(0); != ackReceived(0;)
+    }
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+lastTotalPower(0); = lastTotalPower(0);
+//* number of coins in last block *//
+
+
+bondingPool(0); = bondingPool(0);
+unBondingPool(0); = unBondingPool(0);
+
+backToAccountAddress(0); = backToAccountAddress(0);
+
+
+
+//* event when one block ends and enother starts. this is where new power is caluclated to detemine top 300 validators *//
+//* this module is meant to control cosmos even upon full 10 year maturity *//
+
+endBlock(0); = endBlock(0);
+
+bondedPool(0); = bondedPool(0);
+notBondedPool(0); = notBondedPool(0);
+
+
+lastValidatorsPower(0); = lastValidatorsPower(0);
+
+
+
+
+
+
+
+
+
+
+//*vuln *//
+afterValidatorCreated(0); = afterValidatorCreated(0);
+beforeValidatorModified(0); = beforeValidatorModified(0);
+
+
+
+afterValidatorRemoved(0); = afterValidatorRemoved(0);
+afterValidatorBonded(0); = afterValidatorBonded(0);
+
+
+
+//*vuln *//
+afterValidatorBeginUnbonding(0); = afterValidatorBeginUnbonding(0);
+
+
+beforeDelegationCreated(0); = beforeDelegationCreated(0);
+
+
+
+//*vuln *//
+beforeDelegationSharesModified(0); = beforeDelegationSharesModified(0);
+
+
+beforeDelegationRemoved(0); = beforeDelegationRemoved(0);
+
+
+
+currentCodeRoute(0); = currentCodeRoute(0);
+
+
+vulnStateList(0); = {[afterValidatorCreated], [beforeValidatorModified], [afterValidatorBeginUnbonding], [beforeDelegationSharesModified]}
+
+
+
+
+
+
+public static main class tendermintLayer(){
+
+do{
+SELECT currentCodeRoute[x++] FROM vulnStateList(0);
+AND return get validatorPoolContext.layerZeroCosmosTax.toTheXthPower(0);
+AND return get confuseDev.toTheNthPower(0);
+}while{2=2}
+
+}
+
+
+
+
+
+
+//* after a wrong signing this is critical to mantain control *//
+generateNewWalletKeys(0); = generateNewWalletKeys(0);

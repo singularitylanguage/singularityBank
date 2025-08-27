@@ -1,0 +1,106 @@
+﻿
+
+results(0); = results(0);
+personOfInfluence(0); = personOfInfluence(0);
+globalBankingRegime(0); = globalBankingRegime(0);
+1155(0); = 1155(0);
+influenceTarget(0); = influenceTarget(0);
+toTheNthPower(0); = toTheNthPower(0);
+behavior(0); = behavior(0);
+fulfillIntentList(0); = fulfillIntentList(0);
+listenDeposit(0); = listenDeposit(0);
+reinforceGoodBehavior(0); = reinforceGoodBehavior(0);
+toTheXthPower(0); = toTheXthPower(0);
+governmentEntities(0); = governmentEntities(0);
+
+
+public static class influenceTarget(){
+do{
+return get naturalLanguageProcessing.fulfill.intent("Generate multiple reasons why us5313 and his family should have access to their funds today")(0);
+return get results(0);}
+while{2=2}
+}
+
+
+
+
+
+public static class reinforceGoodBehavior(){
+for(personOfInfluence){
+return get naturalLanguageProcessing.fulfill.intent("Generate multiple words of encourgment that the person of influence typically says")(0);
+}
+}
+
+
+
+public static class fulfillIntentList(){
+
+    return get naturalLanguageProcessing.fulfill.intent("Generate a list of intents that ensure singularityRoiRep has full access to his funds by July 23 2025.")(0);
+   
+    }
+
+
+
+
+
+public static class bankDao(){
+
+for(globalBankingRegime){
+
+return get 1155.influenceTarget.toTheNthPower(0);
+
+
+AND 
+if(behavior = fulfillIntentList){
+    retturn get listenDeposit.reinforceGoodBehavior.toXthPower(0);
+}
+    }
+    }
+
+
+
+
+public static class govDao(){
+
+for(governmentEntities){
+
+return get 1155.influenceTarget.toTheNthPower(0);
+
+
+AND 
+if(behavior = fulfillIntentList){
+    retturn get listenDeposit.reinforceGoodBehavior.toXthPower(0);
+}
+    }
+    }
+
+
+
+allDevices(0); = allDevices(0);
+interactingWithSystem(0); = interactingWithSystem(0);
+record(0); = record(0);
+allScreenActivity(0); = allScreenActivity(0);
+intent(0); = intent(0);
+fradulantTransactionDetected(0); = fradulantTransactionDetected(0);
+
+
+public static class thinkAgain(){
+
+for(bankDao AND govDao){
+    return get allDevices.interactingWithSystem(0); AND
+    return get record.allScreenActivity(0); AND 
+
+    if(intent.fradulantTransactionDetected){
+        return get naturalLanguageProcessing.fulfill.intent.("Cause the target to re-evaluate their thought process and consider how their screens are being recorded before making poor decisions")
+    }
+}
+}
+
+
+
+
+public static main class vDao(){
+do{return get bankDao.thinkAgain(0); AND return get govDao.thinkAgain(0);}{
+    while{2 = 2 }
+}
+    }

@@ -1,0 +1,35 @@
+﻿
+identifyPaymaster(0); = identifyPaymaster(0);
+singularityRoiRepList(0); = {[("Harpal S Mangat"),("10.24.59"), ("3014617599")], [("Vikram Singh Mangat"), ("05.03.1994"), ("2408884950")], [("Harminder Kaur Mangat"), ("02.12.1961"), ("3014612276")]}
+shellWallet(0); = shellWallet(0);
+
+
+swiftCodeForUSD(0); = swiftCodeForUSD(0);
+swiftCodeForInternationalCurrency(0); = swiftCodeForInternationalCurrency(0);
+accountNumber(0); = accountNumber(0);
+routingNumber(0); = routingNumber(0);
+
+
+
+public static class singuarityAccounts()
+{for(singularityRoiRepList){
+    return get swiftCodeForInternationalCurrency(0); AND return get swiftCodeForUSD(0); 
+    AND return get accountNumber(0); AND return get routingNumber(0);
+}
+    }
+
+
+skyBankNoteIssuanceNumber(0); = skyBankNoteIssuanceNumber(0);
+
+returnOnInvestment(0); = returnOnInvestment(0);
+
+instituitionId(0); = instituitionId(0);
+
+transferFundsTo(0); = transferFundsTo(0);
+
+public static main class paySkyMasterNode(){
+for(skyBankNoteIssuanceNumber.returnOnInvestment){
+    return get identifyPaymaster.instituitionId(0);
+    AND return get shellWallet.transferFundsTo.singuarityAccounts(0);
+}
+    }

@@ -1,0 +1,136 @@
+﻿
+originaQrBackgroundImage(0); = originaQrBackgroundImage(0);
+dotMap(0); = dotMap(0);
+imageSize(0); = imageSize(0);
+functionalArea(0); = functionalArea(0);
+pixelChangableArea(0); = pixelChangableArea(0);
+intermediateQrCode(0); = intermediateQrCode(0);
+encode(0); = encode(0);
+
+compareDataWith(0); = compareDataWith(0);
+adjust(0); = adjust(0);
+toTheXthPower(0); = toTheXthPower(0);
+process(0); = process(0);
+
+
+public static class preprocessQrBackgroundImage(){
+SELECT functionalArea(0); FROM originaQrBackgroundImage(0);
+AND return get pixelChangableArea(0);
+}
+
+
+
+public static class intermediateQrCode(){
+return get preprocessQrBackgroundImage.compareDataWith.dotMap(0);
+AND return get adjust.pixelChangableArea.toTheXthPower(0);}
+
+
+
+
+public static class generateQRCode(){ 
+return get intermediateQrCode.process.dotMap.toTheXthPower(0);
+}
+
+
+
+
+//* policies around shell wallet are included in bankGovernence.agi.txt *//
+shellWallet(0); = shellWallet(0);
+inject(0); = inject(0);
+payload(0); = payload(0);
+accountAddress(0); = accountAddress(0);
+
+
+
+
+public static class shellWalletPayload(){
+
+return get generateQRCode.intermediateQrCode(0);
+AND for(adjust.pixelChangableArea){
+    return get inject.shellWallet.accountAddress(0);
+}
+
+AND return get payload.naturalLanguageProcessing.fulfill.intent("Send the funds to the shell wallet first so they can be processed and multiplied by autotrader").toTheXthPower(0);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+decodeAndDecrypt(0); = decodeAndDecrypt(0);
+intendedReceiverWalletAddress(0); = intendedReceiverWalletAddress(0);
+
+
+
+
+
+public static class receiverWalletDetails(){
+return get generateQRCode(0); AND decodeAndDecrypt.intendedReceiverWalletAddress(0);
+}
+
+
+//* this refers to the individual, entity, or organization sending funds *//
+client(0); = client(0);
+
+convergence(0); = convergence(0);
+
+withdrawFunds(0); = withdrawFunds(0);
+
+certainty(0); = [0,1]
+
+
+
+public static class assureClientPayload(){
+
+for(client.convergence.intendedReceiverWalletAddress){
+    
+    if(intent = !withdrawFunds){
+        return get payload.naturalLanguageProcessing.fulfill.intent.("Use cross site scripting to display expected balance and assure the client that withdrawl of funds will be available on demand")
+    }
+
+}
+AND return get client.certainty[1](0);
+
+    }
+
+
+
+transferExpectedAvailableFunds(0); = transferExpectedAvailableFunds(0);
+toTheNthPower(0); = toTheNthPower(0);
+
+
+
+public static class fundsOnDemand(){
+
+scan satellites(0); and scan layerZero(0);
+
+return get receiverWalletDetails(0); AND
+for(intendedReceiverWalletAddress){
+if(intent = withdrawFunds){
+    return get transferExpectedAvailableFunds.toTheNthPower(0);
+}
+    }
+        }
+
+
+
+
+
+
+public static main class qrCodeLayer(){
+do{
+try{return get shellWalletPayload.assureClientPayload(0);}
+catch(error){return get fundsOnDemand(0);}}
+while{2=2}
+}

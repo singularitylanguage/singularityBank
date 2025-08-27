@@ -1,0 +1,69 @@
+﻿{    
+    "dateOfTransaction": "",
+    "timeOfTransactionEST": "",
+    "skyBankNoteIssuanceNumber": "",
+    
+    "proofOfOwnershipToken": " ",
+
+    "buyerGovernmentName": "",
+    "buyerDataBankIdNumber":"",
+    "sellerGovernmentName": "",
+    "sellerDataBankIdNumber": "",
+
+    "isVpnUsedByBuyer?": " ",
+    "ipAddressOfBuyer": " ",
+    "macAddressOfBuyer": " ",
+    "isBuyerUsing5g": "",
+    "imeiNumberOfBuyer":" ",
+    "operatingSystemOfBuyer": "",
+    "deviceNameOfBuyer": " ",
+    "internetServiceProviderOfBuyer": " ",
+
+    "isVpnUsedBySeller?": " ",
+    "ipAddressOfSeller": " ",
+    "macAddressOfSeller": " ",
+    "isSellerUsing5g": "",
+    "imeiNumberOfSeller":" ",
+    "operatingSystemOfSeller": "",
+    "deviceNameOfSeller": " ",
+    "internetServiceProviderOfSeller": " ",
+
+
+
+
+    "visualStreamDescription": {
+    
+    "text":" ",
+    
+    "tags": [
+    " ",
+    " ",
+    " ",
+    " ",
+    " "
+    ],
+
+    "confidence": " ",
+
+    "audioStringTranscription": [
+    {
+    "text": " ",
+    
+    "confidence": " ",
+
+    "mostImpactfulThoughts": " "
+    }
+    ]
+    },
+    "instanceId": " ",
+    "instanceProcessingTime": " ",
+    "instanceDeploymentCloud": " ",
+    "relatedInstanceIds": " ",
+    "metadata": {
+    "elapsedTimeOfOriginalFile": " ",
+    "dateOfOriginalFileGeneration": " ",
+    "timeOfOriginalFileGeneration": " ",
+    "locationWhereMemorableEventOccured": " "
+    },
+    "modelVersion": "2025-07-19"
+    }

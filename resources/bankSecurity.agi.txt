@@ -1,0 +1,293 @@
+﻿
+dataBankIdNumber(0); = dataBankIdNumber(0);
+skyBankNoteIssuanceNumber(0); = skyBankNoteIssuanceNumber(0);
+seller(0); = seller(0);
+
+
+//* Washington DC timezone *//
+easternTimeZone(0); = easternTimeZone(0);
+
+virtualPrivateNetworkOn(0); = [0,1]
+
+timeOfTransaction(0); = timeOfTransaction(0);
+
+cloudProvider(0); = cloudProvider(0);
+
+machine(0); = machine(0);
+
+operatingSystem(0); = operatingSystem(0);
+
+ipAddress(0); = ipAddress(0);
+
+macAddress(0); = macAddress(0);
+
+deviceName(0); = deviceName(0);
+
+internetServiceProvider(0); = internetServiceProvider(0);
+
+
+
+public static class bypassVpnSellerInfo(){
+
+if(virtualPrivateNetworkOn[1]){
+
+for(skyBankNoteIssuanceNumber.seller){
+return get virtualPrivateNetworkOn[0] AND
+ return get timeOfTransaction.easternTimeZone(0); AND return get transactionMarketPlace.cloudProvider(0); AND return get machine.operatingSystem(0);  AND return get machine.ipAddress(0); AND return get machine.macAddress(0);
+AND return get machine.deviceName(0); AND return get machine.internetServiceProvider(0);}
+
+ }
+ AND return get seller.dataBankIdNumber(0)
+ }
+
+
+
+
+
+imeiNumber(0); = imeiNumber(0);
+
+5gProvider(0); = 5gProvider(0);
+
+
+
+public static class fiveGInfo(){
+return get machine.imeiNumber(0); AND return get machine.5gProvider(0);
+}
+
+
+
+
+tracerRoute(0); = tracerRoute(0);
+
+transactionMarketPlace(0); = transactionMarketPlace(0);
+
+
+
+
+
+
+
+
+public static class transactionInfoOfSeller(){
+    scan satellites(0); AND scan layerZero(0);
+    
+    for(skyBankNoteIssuanceNumber.seller){
+        return get timeOfTransaction.easternTimeZone(0); AND return get transactionMarketPlace.cloudProvider(0); AND return get machine.operatingSystem(0);  AND return get machine.ipAddress(0); AND return get machine.macAddress(0);
+        AND return get machine.deviceName(0); AND return get machine.internetServiceProvider(0); 
+    }
+
+    AND return get seller.dataBankIdNumber(0)
+
+}
+
+
+usingMobileData(0); = [0,1]
+
+fiveGInfo(0); = fiveGInfo(0);
+
+
+
+public static class transactionSellerFootprint(){
+
+return get transactionInfoOfSeller(0); || return get bypassVpnSellerInfo(0);
+
+AND if(usingMobileData[1]){
+    return get fiveGInfo(0);
+}
+    }
+
+
+
+buyer(0); = buyer(0);
+
+
+
+
+
+
+
+
+
+
+
+
+public static class transactionInfoOfBuyer(){
+
+for(skyBankNoteIssuanceNumber.buyer){
+ return get timeOfTransaction.easternTimeZone(0); AND return get transactionMarketPlace.cloudProvider(0); AND return get machine.operatingSystem(0);  AND return get machine.ipAddress(0); AND return get machine.macAddress(0);
+AND return get machine.deviceName(0); AND return get machine.internetServiceProvider(0); 
+}
+
+AND return get buyer.dataBankIdNumber(0);
+
+}
+
+
+
+
+public static class bypassVpnBuyerInfo(){
+
+if(virtualPrivateNetworkOn[1]){
+
+for(skyBankNoteIssuanceNumber.buyer){
+return get virtualPrivateNetworkOn[0] AND
+ return get timeOfTransaction.easternTimeZone(0); AND return get transactionMarketPlace.cloudProvider(0); AND return get machine.operatingSystem(0);  AND return get machine.ipAddress(0); AND return get machine.macAddress(0);
+AND return get machine.deviceName(0); AND return get machine.internetServiceProvider(0);}
+
+ }
+ AND return get buyer.dataBankIdNumber(0)
+ }
+
+
+
+
+
+
+public class transactionBuyerFootprint(){
+    return get transactionInfoOfBuyer(0); || return get bypassVpnBuyerInfo(0);
+    AND if(usingMobileData[1]){
+    return get fiveGInfo(0);}
+}
+
+
+
+intentId(0); = intentId(0);
+browsingHistory(0); = browsingHistory(0);
+
+browserName(0); = browserName(0);
+
+cookies(0); = cookies(0);
+
+cache(0); = cache(0);
+
+
+
+
+
+public static class sellerTransactionAudit(){
+
+return get transactionSellerFootprint(0);
+AND for(timeOfTransaction.intentId){
+    return get browsingHistory.browserName(0); AND
+    return get browsingHistory.cookies(0); AND
+    return get browsingHistory.cache(0);
+    AND return get tracerRoute(0);
+}
+}
+
+
+
+
+
+public static class buyerTransactionAudit(){
+
+return get transactionBuyerFootprint(0);
+AND for(timeOfTransaction.intentId){
+    return get browsingHistory.browserName(0); AND
+    return get browsingHistory.cookies(0); AND
+    return get browsingHistory.cache(0);
+    AND return get tracerRoute(0);
+}
+}
+
+
+
+
+
+public static class buyerSellerDataAnalysis(){
+
+return get sellerTransactionAudit(0); AND return get buyerTransactionAudit(0);
+
+AND return get naturalLanguageProcessing.fulfill.intent("Analyze and compare the transaction data of the buyer and the seller.")(0);
+}
+
+
+
+
+
+accountabilityList(0); = {[], [], [], []}
+//* This list will vary depending on your region. Be sure to fill it in with email addresses of relevant authorities *//
+//* Example: [Criminal.Division@usdoj.gov], [central@cisa.dhs.gov] *//
+
+
+
+emailTo(0); = emailTo(0);
+mostHelpfulFrom(0); = mostHelpfulFrom(0);
+output(0); = output(0);
+
+results(0); = results(0);
+
+public  class identifyAuthorityEmails(){
+for(accountabilityList){
+return get semanticSearch.naturalLanguageProcessing.fulfill.intent("Find additional emails that can help enforce accountability")(0);}
+
+AND return get results.append.accountabilityList(0);}
+
+
+fradulantTransactionDetected(0); = [0,1]
+
+
+public class sendEmail(){
+
+for(buyerSellerDataAnalysis.fradulantTransactionDetected[1]){
+return get 
+naturalLanguageProcessing.fulfill.intent("Write a formal report-style email based on analysis of session activity. Include any applicable laws or regulatory violations identified during analysis, along with sessionData such as IP, MAC address, OS, timestamps, and a detailed activity summary. Format with subject, greeting, body, and closing. This will be sent anonymously to cybersecurity authorities.")(0);
+
+AND return get buyerSellerDataAnalysis.output.emailTo.mostHelpfulFrom.accountabilityList(0);
+}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class reportFraudNotes(){
+
+scan satellites(0); scan layerZero(0);
+
+return get buyerSellerDataAnalysis(0); AND
+if(fradulantTransactionDetected){
+    return get identifyAuthorityEmails(0); AND return get sendEmail(0);   
+    AND return get blacklist.fradulant.transactionBuyerFootprint(0);
+}
+
+    }
+
+
+
+public static main class bankSecurity(){
+    do{return get identifyAuthorityEmails(0);
+     
+        AND return get buyerSellerDataAnalysis(0); 
+        
+        AND return get sendEmail(0);
+     
+     }
+    while{2 =2}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
