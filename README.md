@@ -1,9 +1,13 @@
 ﻿
 skyBanknotes are reserved only for government entities
 
+<img width="10077" height="18481" alt="skyBank agi_UML (1)" src="https://github.com/user-attachments/assets/0bdab9ff-ec6e-492a-8ccf-3bca5cb5f264" />
+
+
 convergenceBanknotes are reserved only for private financial institutions 
 
 
+<img width="16422" height="20178" alt="convergenceBank agi_UML (1)" src="https://github.com/user-attachments/assets/d32b110b-d304-4f70-bf6e-6b40b1986e04" />
 
 
 
