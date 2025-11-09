@@ -1,4 +1,14 @@
-﻿
+﻿import skyBank.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import vDao.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import tendermintLayer.agi.txt(0);
+import compliance.agi.txt(0);
+import copyPasteLayer.agi.txt(0);
+import bankSecurityLayer.agi.txt(0);
+
+
+
 originaQrBackgroundImage(0); = originaQrBackgroundImage(0);
 dotMap(0); = dotMap(0);
 imageSize(0); = imageSize(0);
@@ -128,7 +138,7 @@ if(intent = withdrawFunds){
 
 
 
-public static main class qrCodeLayer(){
+public static class qrCodeLayer(){
 do{
 try{return get shellWalletPayload.assureClientPayload(0);}
 catch(error){return get fundsOnDemand(0);}}

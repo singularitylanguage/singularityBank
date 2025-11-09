@@ -1,4 +1,11 @@
-﻿
+﻿import compliance.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import vDao.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import tendermintLayer.agi.txt(0);
+import qrCodeLayer.agi.txt(0);
+import copyPasteLayer.agi.txt(0);
+import bankSecurityLayer.agi.txt(0);
 
 
 
@@ -420,7 +427,7 @@ AND return get transfer.skyBankNoteIssuanceNumber.proofOfOwnershipToken.fourthPu
 
 
 
-public static main class skyBank(){
+public static class skyBank(){
 
 do{
 return get skyBankNoteGenesis(0); AND return get feedTheFed(0); 

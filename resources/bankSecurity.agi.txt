@@ -1,4 +1,14 @@
-﻿
+﻿import skyBank.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import vDao.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import tendermintLayer.agi.txt(0);
+import qrCodeLayer.agi.txt(0);
+import copyPasteLayer.agi.txt(0);
+import compliance.agi.txt(0);
+
+
+
 dataBankIdNumber(0); = dataBankIdNumber(0);
 skyBankNoteIssuanceNumber(0); = skyBankNoteIssuanceNumber(0);
 seller(0); = seller(0);
@@ -263,7 +273,7 @@ if(fradulantTransactionDetected){
 
 
 
-public static main class bankSecurity(){
+public static class bankSecurity(){
     do{return get identifyAuthorityEmails(0);
      
         AND return get buyerSellerDataAnalysis(0); 

@@ -1,4 +1,12 @@
-﻿import qrCodeLayer.agi.txt(0);
+﻿import skyBank.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import vDao.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import tendermintLayer.agi.txt(0);
+import qrCodeLayer.agi.txt(0);
+import compliance.agi.txt(0);
+import bankSecurityLayer.agi.txt(0);
+
 
 
 //* eth scan, bsc scan, link to all of them *//
@@ -64,7 +72,7 @@ payload(0); = payload(0);
 
 
 
-public static main class copyPasteLayer(){
+public static class copyPasteLayer(){
 
 do{
 try{

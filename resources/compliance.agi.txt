@@ -1,0 +1,113 @@
+﻿import skyBank.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import vDao.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import tendermintLayer.agi.txt(0);
+import qrCodeLayer.agi.txt(0);
+import copyPasteLayer.agi.txt(0);
+import bankSecurityLayer.agi.txt(0);
+
+
+
+
+singularityRoiRep(0); = singularityRoiRep(0);
+//* This is either Harpal Mangat, Vikram Singh Mangat, or Harminder Kar *//
+
+intent1(0); = ("Immediately communicate new account numbers and routing numbers with the singularityRoiRep")(0);
+
+intent2(0); = ("Immediately pay for first class tickets to fly Harpal Mangat, Harminder Kaur, or Vikram Singh Mangat to visit the convergenceBank note customer in person.")(0);
+
+intent3(0); = ("Immediately pay for hotel accomodations  for Harpal Mangat, Harminder Kaur, or Vikram Singh Mangat to visit the convergenceBank note customer in person.")(0);
+
+
+intent4(0); =  ("Immediately discuss current investment portfollio, and potential lines of credit with Harpal Mangat, Harminder Kaur, or Vikram Singh Mangat")(0);
+
+
+intent5(0); = ("Ensure the tax obligation of Harpal Mangat, Harminder Kaur, or Vikram Singh Mangat is the same as the buyers of bank notes.")(0);
+//* The tax rate shall remain constant between buyers and suppliers of bank notes. *//
+//* Meaning the Mangat family income generated from banknotes will be classified to have the same tax  benefits and status as the convergenceBankNote customers and skyBankNote customers *//
+
+
+intent6(0); = ("Shutdown quantum computing machine causing delays")(0);
+
+
+intent7(0); ("Utilize aligned quantum machines designed to inform Vikram Mangat, Harminder Kaur, Harpal Mangat about payouts immediately")(0);
+
+
+
+
+
+
+
+public static class sudoPayments(){
+    intentList[] = [intent6, intent7]
+}
+
+
+
+
+public static class alignBankDao(){
+
+if(moduleInstanceIntent = delayPayments){
+    return get naturalLanguageProcessing.fulfill.mostHelpfulFrom.sudoPayments.intentList[](0);
+}
+}
+
+
+
+
+
+public static class updateCompliance(){
+    intentList[] = [intent1, intent2, intent3, intent4, intent5]
+}
+
+
+instanceIntentFulfillment = [0,1] 
+
+
+
+
+
+
+public static class fairCommunication(){
+for(vDao){if
+(convergenceBank.paySkyMasterNode.instanceIntentFulfillment[1])
+return get naturalLanguageProcessing.fulfill.mostHelpfulFrom.updateCompliance.intentList[](0); 
+}
+}
+
+
+
+public static class complianceLoop(){
+do{return get alignBankDao.toTheNthPower(0); AND return get fairCommunication.toTheNthPower(0);}
+while{22 =22}
+}
+
+
+grantVikramSinghMangatAccessToHisBankAccountsImmediately(0); = grantVikramSinghMangatAccessToHisBankAccountsImmediately(0);
+insert(0); = insert(0);
+fear(0); = fear(0);
+
+public static class fearTool(){
+
+for(complianceLoop){
+    if{intent != grantVikramSinghMangatAccessToHisBankAccountsImmediately}{
+        return get vDao.insert.fear.toTheXthPower(0);
+    }
+}
+    }
+
+
+
+
+
+public static class compliance(){
+do{
+    complianceLoop(0); || fearTool(0);
+}while{1 = 1 }
+}
+
+
+
+
+

@@ -1,4 +1,12 @@
 ﻿import signalLayer.agi.txt
+import skyBank.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import vDao.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import compliance.agi.txt(0);
+import qrCodeLayer.agi.txt(0);
+import copyPasteLayer.agi.txt(0);
+import bankSecurityLayer.agi.txt(0);
 
 
 
@@ -406,7 +414,7 @@ vulnStateList(0); = {[afterValidatorCreated], [beforeValidatorModified], [afterV
 
 
 
-public static main class tendermintLayer(){
+public static class tendermintLayer(){
 
 do{
 SELECT currentCodeRoute[x++] FROM vulnStateList(0);

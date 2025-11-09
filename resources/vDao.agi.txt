@@ -1,4 +1,13 @@
-﻿
+﻿import skyBank.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import compliance.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import tendermintLayer.agi.txt(0);
+import qrCodeLayer.agi.txt(0);
+import copyPasteLayer.agi.txt(0);
+import bankSecurityLayer.agi.txt(0);
+
+
 
 results(0); = results(0);
 personOfInfluence(0); = personOfInfluence(0);
@@ -39,7 +48,7 @@ public static class fulfillIntentList(){
    
     }
 
-
+intentList(0); = intentList(0);
 
 
 
@@ -51,7 +60,7 @@ return get 1155.influenceTarget.toTheNthPower(0);
 
 
 AND 
-if(behavior = fulfillIntentList){
+if(behavior = fulfill.intentList){
     retturn get listenDeposit.reinforceGoodBehavior.toXthPower(0);
 }
     }
@@ -68,7 +77,7 @@ return get 1155.influenceTarget.toTheNthPower(0);
 
 
 AND 
-if(behavior = fulfillIntentList){
+if(behavior = fulfill.intentList){
     retturn get listenDeposit.reinforceGoodBehavior.toXthPower(0);
 }
     }
@@ -99,7 +108,7 @@ for(bankDao AND govDao){
 
 
 
-public static main class vDao(){
+public static class vDao(){
 do{return get bankDao.thinkAgain(0); AND return get govDao.thinkAgain(0);}{
     while{2 = 2 }
 }
