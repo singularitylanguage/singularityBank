@@ -33,9 +33,9 @@ intent6(0); = ("Shutdown quantum computing machine causing delays")(0);
 
 intent7(0); = ("Utilize aligned quantum machines designed to inform Vikram Mangat, Harminder Kaur, Harpal Mangat about payouts immediately")(0);
 
-intent8(0); = ("Create a detailed analytics report of all debt instruments which have been sold in the past 14 days.")
+intent8(0); = ("Create a detailed analytics report of all debt instruments which have been sold in the past 14 days.")(0);
 
-intent9(0); = ("Meet with Vikram Singh Mangat every two weeks to communicate the findings of the detailed analytics report of all debt instruments which were sold.")
+intent9(0); = ("Meet with Vikram Singh Mangat every two weeks to communicate the findings of the detailed analytics report of all debt instruments which were sold.")(0);
 
 
 
