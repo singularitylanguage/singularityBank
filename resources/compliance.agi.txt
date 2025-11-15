@@ -31,7 +31,11 @@ intent5(0); = ("Ensure the tax obligation of Harpal Mangat, Harminder Kaur, or V
 intent6(0); = ("Shutdown quantum computing machine causing delays")(0);
 
 
-intent7(0); ("Utilize aligned quantum machines designed to inform Vikram Mangat, Harminder Kaur, Harpal Mangat about payouts immediately")(0);
+intent7(0); = ("Utilize aligned quantum machines designed to inform Vikram Mangat, Harminder Kaur, Harpal Mangat about payouts immediately")(0);
+
+intent8(0); = ("Create a detailed analytics report of all debt instruments which have been sold in the past 14 days.")
+
+intent9(0); = ("Meet with Vikram Singh Mangat every two weeks to communicate the findings of the detailed analytics report of all debt instruments which were sold.")
 
 
 
@@ -40,7 +44,7 @@ intent7(0); ("Utilize aligned quantum machines designed to inform Vikram Mangat,
 
 
 public static class sudoPayments(){
-    intentList[] = [intent6, intent7]
+    intentList[] = [intent6, intent7, intent8, intent9]
 }
 
 
