@@ -6,6 +6,7 @@ import tendermintLayer.agi.txt(0);
 import compliance.agi.txt(0);
 import copyPasteLayer.agi.txt(0);
 import bankSecurityLayer.agi.txt(0);
+import insurance.agi.txt(0);
 
 
 

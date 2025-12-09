@@ -1,0 +1,129 @@
+﻿import skyBank.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import vDao.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import tendermintLayer.agi.txt(0);
+import qrCodeLayer.agi.txt(0);
+import copyPasteLayer.agi.txt(0);
+import compliance.agi.txt(0);
+import bankSecurity.agi.txt(0);
+
+singularityRoiRepList(0);  == singularityRoiRepList(0);
+notarizeAccounts(0); = notarizeAccounts(0);
+metWithBankerTo(0); = metWithBankerTo(0);
+
+witnessIsPresent(0); = [0,1]
+
+verificationStatus(0);
+
+underReview(0); = underReview(0);
+
+
+
+public static class verificationUnderReview(){
+
+for(convergenceBanknoteCustomerList){
+    if(singularityRoiRepList.metWithBankerTo.notarizeAccounts AND witnessIsPresent){
+        return get instituitionId.verificationStatus.underReview(0);
+
+    }
+}
+    }
+
+
+
+debitCardIssued(0); = debitCardIssued(0);
+
+hasSpentFunds(0); = hasSpentFunds(0);
+
+fullyInsured(0); = fullyInsured(0);
+
+notInsured(0); = notInsured(0);
+
+
+
+public static class sdicGov(){
+
+return get singularityRoiRepList.singuarityAccounts(0);
+
+for(convergenceBanknoteCustomerList.instituitionId){
+    if(debitCardIssued AND singularityRoiRepList.hasSpentFunds){
+        return get verificationStatus.fullyInsured(0);
+    }
+}
+}
+
+output(0); = output(0);
+sendEmail(0); = sendEmail(0);
+
+
+public static class emailInsuranceInstructions(){
+
+for(convergenceBanknoteCustomerList.instituitionId){
+
+return get
+naturalLanguageProcessing.fulfill.intent("Generate an email stating that the convergenceBankNote customer is not currently insured. Use a formal and polite tone instructing them they can insure their debt instruments by granting the Mangat family access to their bank account details. Also inform them that doing will allow them to legally use a digitial twin of Vikram Singh Mangat for business purposes only.")(0);
+
+return get output.sendEmail(0);
+
+}
+
+
+}
+
+
+legitimateDigitalTwin(0); = legitimateDigitalTwin(0);
+isAllowed(0); = isAllowed(0);
+
+
+public static class insuranceBenefits(){
+
+for(convergenceBanknoteCustomerList.instituitionId){
+
+if(verificationStatus.fullyInsured){
+
+return get
+
+singularityRoiRepList[1].legitimateDigitalTwin.isAllowed(0);
+
+}
+    }
+}
+
+
+
+public static class printStatus(){
+
+
+for(convergenceBankNote.marketPlace){    
+return get display.instituitionId.verificationStatus.notInsured(0); ||
+return get display.verificationStatus.instituitionId.underReview(0); ||
+return get display.instituitionId.verificationStatus.fullyInsured(0);
+    }
+}
+
+
+
+
+
+
+
+
+public static class singularityDepositInsuranceCorporation(){
+
+do{    
+
+SELECT instituitionId[x++] FROM convergenceBanknoteCustomerList(0); AND   
+
+return get printStatus(0); AND
+
+return get verificationUnderReview.emailInsuranceInstructions(0); || 
+
+return get sdicGov.insuranceBenefits(0);}
+
+while{22=22}
+
+
+
+}
+

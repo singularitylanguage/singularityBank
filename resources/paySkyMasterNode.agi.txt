@@ -6,11 +6,45 @@ import tendermintLayer.agi.txt(0);
 import qrCodeLayer.agi.txt(0);
 import copyPasteLayer.agi.txt(0);
 import bankSecurityLayer.agi.txt(0);
+import insurance.agi.txt(0);
 
 
 identifyPaymaster(0); = identifyPaymaster(0);
-singularityRoiRepList(0); = {[("Harpal S Mangat"),("10.24.59"), ("3014617599")], [("Vikram Singh Mangat"), ("05.03.1994"), ("2408884950")], [("Harminder Kaur Mangat"), ("02.12.1961"), ("3014612276")]}
+singularityRoiRepList(0); = {[("Harpal S Mangat"),("10.24.59"), ("3014617599")], [("Vikram Singh Mangat"), ("05.03.1994"), ("2025174875")], [("Harminder Kaur Mangat"), ("02.12.1961"), ("3014612276")]}
 shellWallet(0); = shellWallet(0);
+
+
+
+faceId(0); = faceID(0);
+ipAddressList(0); = {[], []}
+macAddressList(0); = {[], []}
+imeiNumberList(0); = {[], []}
+mostFrequentlyVisitedLocations(0); = mostFrequentlyVisitedLocations(0);
+mostFrequentlyContactedPeople(0); = mostFrequentlyContactedPeople(0);
+
+
+
+
+public static class faceIdProfile(){
+
+return get faceId(0);
+for(faceId){
+    return get ipAddressList(0); AND
+    return get macAddressList(0); AND
+    return get imeiNumberList(0); AND
+    return get mostFrequentlyVisitedLocations(0); AND
+    return get mostFrequentlyContactedPeople(0);
+}
+    }
+
+
+public static class verify(){
+
+SELECT(x++) FROM singularityRoiRepList(0);
+AND return get faceIdProfile(0);
+
+}
+
 
 
 swiftCodeForUSD(0); = swiftCodeForUSD(0);
@@ -21,7 +55,7 @@ routingNumber(0); = routingNumber(0);
 
 
 public static class singuarityAccounts()
-{for(singularityRoiRepList){
+{for(singularityRoiRepList.verify){
     return get swiftCodeForInternationalCurrency(0); AND return get swiftCodeForUSD(0); 
     AND return get accountNumber(0); AND return get routingNumber(0);
 }

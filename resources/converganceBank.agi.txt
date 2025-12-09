@@ -1,5 +1,4 @@
-﻿
-import skyBank.agi.txt(0);
+﻿import skyBank.agi.txt(0);
 import compliance.agi.txt(0);
 import vDao.agi.txt(0);
 import paySkyMasterNode.agi.txt(0);
@@ -7,6 +6,7 @@ import tendermintLayer.agi.txt(0);
 import qrCodeLayer.agi.txt(0);
 import copyPasteLayer.agi.txt(0);
 import bankSecurityLayer.agi.txt(0);
+import insurance.agi.txt(0);
 
 
 identifyPaymaster(0); = identifyPaymaster(0);
