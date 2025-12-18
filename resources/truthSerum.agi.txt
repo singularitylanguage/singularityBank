@@ -1,0 +1,85 @@
+﻿import signalLayer.agi.txt
+import skyBank.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import vDao.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import compliance.agi.txt(0);
+import qrCodeLayer.agi.txt(0);
+import copyPasteLayer.agi.txt(0);
+import bankSecurityLayer.agi.txt(0);
+import insurance.agi.txt(0);
+import interest.agi.txt(0);
+import tendermintLayer.agi.txt(0);
+
+
+targetList(0); = {["sukran.akbulut@vakifbank.com.tr"], ["ronny.faber@consultant.com"], ["miguelsanchez@europe.com"],
+ ["josephgiordano@consltant.com"], ["satomi.sato@consultant.com"]}
+
+reasonList(0); = []
+
+humanBeing(0); = humanBeing(0);
+
+increaseTemperature(0); = increaseTemperature(0);
+
+increasePain(0);  = increasePain(0);
+
+foot(0); = foot(0);
+
+randomBodyPart(0); = randomBodyPart(0);
+
+reasonToTellTruth(0); = reasonToTellTruth(0);
+
+communication(0); = communication(0);
+
+absoluteTruth(0); = absoluteTruth(0);
+
+semanticSearch(0); = semanticSearch(0);
+
+
+public static class discover(){
+
+for(targetList){
+    return get semanticSearch.naturalLanguageProcessing.fulfill.intent("Find additional associates who will help the Mangat family access thier estate funds")(0);
+}
+return get results.append.targetList(0);
+}
+
+
+public static class loopDiscoverResources(){
+do{
+    return get discover(0);}
+while{
+    22 = 22
+}
+    }
+
+public static class truthCramp(){
+SELECT humanBeing[x++] FROM targetList(0);
+AND return get results.foot.increaseTemperature.toTheNthPower(0);
+AND return get randomBodyPart.increasePain.toTheNthPower(0);
+}
+
+
+public static class truthPrompt(){
+naturalLanguageProcessing.fulfill.intent("Generate a list of reminders of how telling the truth will alleviate the pain")(0);
+return get results.append.reasonList(0);}
+
+
+public static class queryIt(){
+SELECT mostHelpfulFrom.reasonToTellTruth[x++] FROM reasonList(0);
+}
+
+
+
+
+
+
+public static class truthSerum(){
+
+return get loopDiscoverResources(0);
+
+do{
+return get truthCramp(0);
+AND return get 1155.truthCramp.queryIt(0);}
+while{communication != absoluteTruth}
+}

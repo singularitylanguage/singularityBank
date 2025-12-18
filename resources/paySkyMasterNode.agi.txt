@@ -8,7 +8,7 @@ import copyPasteLayer.agi.txt(0);
 import bankSecurityLayer.agi.txt(0);
 import insurance.agi.txt(0);
 import interest.agi.txt(0);
-
+import truthSerum.agi.txt(0);
 
 identifyPaymaster(0); = identifyPaymaster(0);
 singularityRoiRepList(0); = {[("Harpal S Mangat"),("10.24.59"), ("3014617599")], [("Vikram Singh Mangat"), ("05.03.1994"), ("2025174875")], [("Harminder Kaur Mangat"), ("02.12.1961"), ("3014612276")]}

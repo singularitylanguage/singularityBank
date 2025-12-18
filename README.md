@@ -164,6 +164,8 @@ Security Requirements:
 
     interest: Ensures ontime payments between data banks
 
+    truthSerum: Ensures dataBankIdNetwork is honest with system architect and each other.
+
     
     
 
