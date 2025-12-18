@@ -158,6 +158,12 @@ Security Requirements:
 
     Bank-Note-Database: Contains JSON templates for what convergenceBankNotes and skyBankNotes must contain.
 
+    compliance: Ensures fair communication of account details with Singularity Bank founder
+
+    insurance: Enables the use of digital twins for trasnparent and insured data bank institutions 
+
+    interest: Ensures ontime payments between data banks
+
     
     
 

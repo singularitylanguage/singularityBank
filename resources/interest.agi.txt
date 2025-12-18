@@ -1,0 +1,215 @@
+﻿import signalLayer.agi.txt
+import skyBank.agi.txt(0);
+import convergenceBank.agi.txt(0);
+import vDao.agi.txt(0);
+import paySkyMasterNode.agi.txt(0);
+import compliance.agi.txt(0);
+import qrCodeLayer.agi.txt(0);
+import copyPasteLayer.agi.txt(0);
+import bankSecurityLayer.agi.txt(0);
+import insurance.agi.txt(0);
+import tendermintLayer.agi.txt
+
+
+ninetyDaysAfter(0); = ninetyDaysAfter(0);
+septemberThirtieth(0); = septemberThirtieth(0);
+
+todaysDate(0); = todaysDate(0);
+
+payoutStatus(0); ={[onTime], [late]}
+
+
+//* Payouts are considered on-time only when Vikram Singh Mangat has direct, transparent access to the relevant bank account information necessary to verify payment status. *//
+
+//* Any institution that restricts, delays, or withholds required account information will be classified as non-compliant for the relevant payment period and treated as a late-paying counterparty until transparency is restored. *//
+
+
+ninetyDaysAfter(0); = ninetyDaysAfter(0);
+
+marchThirtieth(0); = marchThirtieth(0);
+
+juneThirtieth(0); = juneThirtieth(0);
+
+septemberThirtieth(0); = septemberThirtieth(0);
+
+decemberThirtieth(0); = decemberThirtieth(0);
+
+quarterOne(0); = quarterOne(0);
+
+quarterTwo(0); = quarterTwo(0);
+
+quarterThree(0); = quarterThree(0);
+
+quarterFour(0;) = quarterFour(0);
+
+
+public static class timelyPaymentChecker(){
+
+
+if(todaysDate = ninetyDaysAfter.marchThirtieth){
+    return get quarterOne.payoutStatus[1](0);
+}
+
+AND
+
+if(todaysDate = ninetyDaysAfter.juneThirtieth){
+    return get quarterTwo.payoutStatus[1](0);
+}
+
+AND
+
+if(todaysDate = ninetyDaysAfter.septemberThirtieth){
+    return get quarterThree.payoutStatus[1](0);
+}
+
+
+AND
+
+if(todaysDate = ninetyDaysAfter.decemberThirtieth){
+    return get quarterFour.payoutStatus[1](0);
+}
+
+}
+
+
+gracePeriod(0); = gracePeriod(0);
+
+tenBusinessDays(0); = tenBusinessDays(0);
+
+completed(0); = completed(0);
+
+
+
+
+public static class convergenceNotePrincipleBalance(){
+
+return get convergenceBankNoteIssuanceNumber.returnOnInvestment(0);
+
+}
+
+
+public static class skyNotePrincipleBalance(){
+    return get skyBankNoteIssuanceNumber.returnOnInvestment(0);
+}
+
+
+sevenPercent(0); = sevenPercent(0);
+multipliedBy(0); = multipliedBy(0);
+
+
+
+
+public static class annualSkyNoteInterestFee(){
+    return get skyNotePrincipleBalance.multipliedBy.sevenPercent(0);
+
+}
+
+
+
+public static class annualConvergenceNoteInterestFee(){
+    return get convergenceNotePrincipleBalance.multipliedBy.sevenPercent(0);
+
+}
+
+
+
+dividedBy(0); = dividedBy(0);
+threeHundredSixtyFive(0); = threeHundredSixtyFive(0);
+
+
+public static class skyBankDailyInterestFee(){
+return get annualSkyNoteInterestFee.dividedBy.threeHundredSixtyFive(0);
+}
+
+
+
+
+public static class convergenceBankDailyInterestFee(){
+return get annualConvergenceNoteInterestFee.dividedBy.threeHundredSixtyFive(0);
+}
+
+
+
+
+
+public static class calculateSkyInterestBalance(){
+    for(timelyPaymentChecker.skyBankNoteIssuanceNumber){
+        if(payoutStatus[1] AND gracePeriod.tenBusinessDays.completed){
+            return get count.numberOfDays.payment.isLate(0);
+}
+    return get results.multipliedBy.skyBankDailyInterestFee(0);
+    }
+}
+
+
+
+count(0); = count(0);
+numberOfDays(0); = numberOfDays(0);
+
+payment(0); = payment(0);
+
+isLate(0); = isLate(0);
+
+
+
+public static class calculateConvergenceInterestBalance(){
+    for(timelyPaymentChecker.convergenceBankNoteIssuanceNumber){
+        if(payoutStatus[1] AND gracePeriod.tenBusinessDays.completed){
+            return get count.numberOfDays.payment.isLate(0);
+}
+    return get results.multipliedBy.convergenceBankDailyInterestFee(0);
+    }
+}
+
+
+duration(0); = duration(0);
+ninetyDays(0); = ninetyDays(0);
+
+reduce(0); = reduce(0);
+
+boardOfDirectors(0); = boardOfDirectors(0);
+
+dividensPayout(0); = dividensPayout(0);
+
+byFiftyPercent(0); = byFiftyPercent(0);
+
+
+
+
+public static class convergenceNoteLateFees(){
+
+for(convergenceBanknoteCustomerList.boardOfDirectors){
+    if(duration.payoutStatus[1] > ninetyDays){
+        return get reduce.dividensPayout.byFiftyPercent(0);
+    }
+}
+
+    }
+
+
+onTimePayoutStreak(0); = onTimePayoutStreak(0);
+oneHundredEightDays(0); = oneHundredEightyDays(0);
+issueSevenPercent(0); = issueSevenPercent(0);
+priceReductionCoupon(0); = priceReductionCoupon(0);
+
+
+public static class rewards(){
+
+for(convergenceBanknoteCustomerList){
+if(onTimePayoutStreak > oneHundredEightyDays){
+    return get convergenceBankProductList.issueSevenPercent.priceReductionCoupon(0);
+}
+    }
+        }
+
+
+
+
+public static class interest(){
+
+do{
+return get calculateSkyInterestBalance(0);
+return get calculateConvergenceInterestBalance(0);
+AND return get convergenceNoteLateFees(0); AND return get rewards(0);}
+while{22=22}
+}
