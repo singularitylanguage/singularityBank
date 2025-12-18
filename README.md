@@ -34,8 +34,8 @@ convergenceBankNote  (private institution) Marketplace Rules:
     3. Only private financial institutions with dataBankIdNumbers can purchase convergenceBankNotes
 
 
-![Uploading convergenceBank.agi_UML (1).png…]()
 
+<img width="16422" height="20178" alt="convergenceBank agi_UML (1)" src="https://github.com/user-attachments/assets/e9023ff8-3728-4621-8243-53d50bb70f21" />
 
 
 
